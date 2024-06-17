@@ -1,0 +1,46 @@
+Cricket and Corporate
+
+Problem statement:
+John is a professional cricketer and a full-time software engineer. Recently, he got selected for the T20 World Cup, so he took leave for the duration of the tournament. However, due to the high demand of work in his company, his manager assigned him a task, as John is a crucial player for his team. Now, he needs your help to solve the task.
+You are given a string s of length n consisting of lowercase alphabets. You need to calculate the weight of all possible pairs such that 
+(s[i ] == s[j]) and (i < j such that i < n and j < n).
+The weight is the absolute difference between i and j .
+
+Input:
+
+The first line contains the number of test cases, t. The second line contains n, the length of the string, and the third line is the string s consisting of lowercase alphabets.
+
+1 <= t <=1000
+1 <= n <= 100000
+s[i] consist of lowercase alphabets from all i (0<=i<n)
+
+
+Output:
+
+Output a single integer, which represents the weight of all possible pairs such that s[i] == s[j] and (i<j).
+
+
+Example:
+
+Input
+
+1
+7
+abacada
+
+Output
+
+20
+
+Explanation :
+
+For character “a” all possible pairs are as follows
+
+(0,2) , (0,4) , (0,6) , (2,4) , (2,6), (4,6) weight = 20
+
+For character “b” weight = 0
+For character “c” weight = 0
+For character “d” weight = 0
+
+So the final weight is 20.
+
