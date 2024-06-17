@@ -1,0 +1,34 @@
+NEET SCAM
+Problem statement:
+NEET is one of the most competitive medical exams in the country. Ram, a NEET aspirant, had been preparing dedicatedly for two years. When he got his result, he found that he scored 720 out of 720,
+which made him very happy. 
+However, when he saw his rank, he became very disappointed. Suspecting a possible scam, he asked you, a cyber expert, to investigate the issue.
+
+You are given an array containing the marks of n aspirants, and you need to find the scam factor of the entire array. 
+The scam factor is the number of possible pairs of marks that can be formed where the marks are equal. 
+Specifically, it is the total number of possible pairs (i,j) such that marks[i]==marks[j].
+
+Input:
+The first line contains t, the number of test cases. The second line contains n, the size of the array, and the third line contains the marks of the n aspirants.
+
+1 <= t <= 10000
+1 <= n <= 100000
+1 <= a[i] <= 1000000000
+
+Output:
+return the total scam factor of the array.
+
+Example:
+
+Input:
+1
+4
+1 2 1 1
+
+Output:
+3
+
+Explanation:
+
+The number of pairs having same value
+(0,2), (0,3) and (2,3) so the total scam factor is 3.
